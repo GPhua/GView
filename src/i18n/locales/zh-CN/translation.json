@@ -1,0 +1,17 @@
+{
+  "title": "云南电网一体化电网运行管理系统",
+  "layout": {
+    "header": {
+      "logout": "退出",
+      "success": "操作成功！"
+    }
+  },
+  "login": {
+    "username": "用户",
+    "password": "密码",
+    "usernameTip": "请输入用户",
+    "passwordTip": "请输入密码",
+    "login": "登录",
+    "loginError": "用户名或密码不正确"
+  }
+}

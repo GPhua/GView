@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../font/font_m45a9hq5b752vs4i.eot');
+  /* IE9 阿里下载：http://at.alicdn.com/t/font_m45a9hq5b752vs4i.eot?t=1498987508849 */
+
+  src: url('../font/font_m45a9hq5b752vs4i_iefix.eot') format('embedded-opentype'),
+    /* IE6-IE8  阿里下载：http://at.alicdn.com/t/font_m45a9hq5b752vs4i.eot?t=1498987508849#iefix */
+
+  url('../font/font_m45a9hq5b752vs4i.woff') format('woff'),
+    /* chrome, firefox  阿里下载：http://at.alicdn.com/t/font_m45a9hq5b752vs4i.woff?t=1498987508849 */
+
+  url('../font/font_m45a9hq5b752vs4i.ttf') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+   阿里下载：http://at.alicdn.com/t/font_m45a9hq5b752vs4i.ttf?t=1498987508849 */
+
+  url('../font/font_m45a9hq5b752vs4i.svg') format('svg');
+  /* iOS 4.1- 阿里下载：http://at.alicdn.com/t/font_m45a9hq5b752vs4i.svg?t=1498987508849#iconfont  */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-article:before {
+  content: "\e618";
+}
+
+.icon-logout:before {
+  content: "\e667";
+}
+
+.icon-product:before {
+  content: "\e6f3";
+}
+
+.icon-cloud:before {
+  content: "\e626";
+}
+

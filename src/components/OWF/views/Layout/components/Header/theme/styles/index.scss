@@ -1,0 +1,52 @@
+@import "../../../../../../../../theme/utils/index";
+
+.oui-header {
+  background-color: #5374A9;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, .05);
+  color: white;
+
+  .oui-header-center {
+    @include position--relative();
+    @include text--middle(55px);
+
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .oui-logo {
+    @include position--absolute(15px, null, null, 0);
+    @include text--middle(24px);
+
+    cursor: pointer;
+    width: 320px;
+
+    i {
+      display: block;
+      float: left;
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+
+  .oui-user {
+    @include position--absolute(null, 40px, null, null);
+    @include size(120px, 60px);
+  }
+
+  .oui-logout {
+    @include position--absolute(15px, 0, null, null);
+    @include text--middle(24px);
+
+    cursor: pointer;
+    width: 24px;
+
+    i {
+      font-size: 24px;
+    }
+  }
+}

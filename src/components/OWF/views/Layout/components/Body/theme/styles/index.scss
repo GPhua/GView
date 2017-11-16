@@ -1,0 +1,61 @@
+/*
+.body {
+  padding: 15px;
+  margin-left: 240px;
+  height: 100%;
+  overflow: auto;
+}
+*/
+
+.oui-layout {
+  border: 1px solid #d7dde4;
+  background: #f5f7f9;
+  position: relative;
+  height: calc(100% - 0rem);
+  overflow: hidden;
+}
+
+.oui-layout-breadcrumb {
+  margin-top: 0px;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px 15px 0;
+}
+
+.oui-layout-content {
+  min-height: 200px;
+  margin: 15px;
+  overflow: auto;
+  padding-bottom: 10px;
+  background: #fff;
+  height: calc(100% - 10rem);
+  border-radius: 4px;
+}
+
+.oui-layout-content-main {
+  padding: 10px 6px;
+}
+
+.oui-layout-copy {
+  text-align: center;
+  padding: 5px 0 10px;
+  height: 40px;
+  color: #9ea7b4;
+}
+
+.oui-layout-menu-left {
+  background: #464c5b;
+  /*min-width: 100px;*/
+}
+.oui-layout-ceiling-main a {
+  color: #9ba7b5;
+}
+
+.oui-layout-hide-text .oui-layout-text {
+  display: none;
+}
+
+.ivu-col {
+  transition: width .2s ease-in-out;
+}
+

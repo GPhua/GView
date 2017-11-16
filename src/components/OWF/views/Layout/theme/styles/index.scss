@@ -1,0 +1,18 @@
+@import "../../../../../../theme/utils/index";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.oui-main {
+  @include position--absolute(55px, null, 0, -0%);
+
+  background-color: white;
+  width: 100%;
+  margin-left: 0%;
+  overflow: hidden;
+  height: calc(100% - 0rem);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .01);
+}
