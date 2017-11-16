@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot></slot>
-    <Table :context="$parent" class="margin-bottom" border :columns="cls" :data="pagedata" :selection="[1]"
+    <Table :context="$parent" class="margin-bottom" border :columns="columns" :data="pagedata" :selection="[1]"
            @on-selection-change="handleSectionChange"></Table>
     <Page class="page" :total="total" :current="current" :page-size="config.PAGE_SIZE" show-total show-elevator
           @on-change="handlePageChange"></Page>
@@ -9,12 +9,12 @@
 </template>
 
 <script>
-  import config from '@/utils/config'
+  import config from '../../../../utils/config'
 
   export default {
     name: 'list',
     props: {
-      cls: {
+      columns: {
         type: Array,
         default () {
           return []
@@ -37,6 +37,7 @@
       return {
         config,
         total: 0,
+        current: 1,
         pagedata: [],
         selection: [],
         historyData: []
@@ -59,7 +60,7 @@
         var _start = (current - 1) * config.PAGE_SIZE
         var _end = current * config.PAGE_SIZE
         this.$set(this, 'total', this.data.length)
-        if (this.data) {
+        if (this.data && this.pagedata.length >= _start) {
           this.pagedata = this.data.slice(_start, _end)
         }
       },

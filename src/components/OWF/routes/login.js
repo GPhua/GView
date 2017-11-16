@@ -1,4 +1,4 @@
-import auth from '@/utils/auth'
+import auth from '../../../utils/auth'
 import login from '../views/Login'
 
 export default {

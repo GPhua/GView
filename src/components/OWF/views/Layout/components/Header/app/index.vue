@@ -15,12 +15,8 @@
 </template>
 
 <script>
-  import OIcon from '@/components/OIcon'
   export default {
     name: 'oui_header',
-    components: {
-      OIcon
-    },
     data () {
       return {
         title: this.$tt('title'),

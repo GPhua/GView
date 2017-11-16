@@ -1,7 +1,7 @@
-import REST from '@/utils/rest'
-import config from '@/utils/config'
+import REST from '../../../../utils/rest'
+import config from '../../../../utils/config'
 import iView from 'iview'
-import i18n from '@/i18n'
+import i18n from '../../../../i18n'
 // 获取翻译函数
 const t = i18n.getT(null)
 export default class extends REST {

@@ -1,6 +1,6 @@
-import REST from '@/utils/rest'
-import config from '@/utils/config'
-import restHelpers from '@/utils/helpers/restHelpers'
+import REST from '../../../../utils/rest'
+import config from '../../../../utils/config'
+import restHelpers from '../../../../utils/helpers/restHelpers'
 
 export default class extends REST {
   constructor (varPath) {

@@ -1,5 +1,5 @@
 import types from './types'
-import Model from '@/components/OWF/models/actions/login'
+import Model from '../../../../../components/OWF/models/actions/login'
 
 export default {
   /**

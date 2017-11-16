@@ -36,7 +36,7 @@
 
 <script>
   import $ from 'jquery'
-  import auth from '@/utils/auth'
+  import auth from '../../../../utils/auth'
   export default {
     name: 'login',
     data () {
